@@ -1,31 +1,4 @@
-/*
-3. Simple Login & Registration System
-Purpose:
-• Practice basic file handling, simple data storage, and string comparisons.
 
-Approach & Steps:
-
-Requirements:
-– Allow a user to register (create a username/password) and then log in.
-– Save credentials in a plain text file.
-
-Design:
-– Create two functions: one for registration and one for login.
-– Store data in a simple format (e.g. “username password” on each line).
-
-Implementation:
-– Use std::ofstream to append new user data during registration.
-– Use std::ifstream to read and verify credentials during login. – Use basic string comparisons to check if input matches stored credentials.
-
-Testing:
-– Try registering several users and testing login with correct and incorrect credentials.
-
-Concepts Covered:
-• File I/O (reading and writing text files)
-• Basic string manipulation and comparison
-• User input and control flow
-• Simple error handling
-*/
 
 
 
